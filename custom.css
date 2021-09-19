@@ -1,0 +1,102 @@
+.lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 2;
+}
+
+.lnr-cart {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.lnr-magnifier {
+    color: #000000;   
+}
+
+.navbar-nav li {
+    margin-right: 3em;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.h {
+    text-align: center;
+}
+
+.card-body {
+    align-content: center;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 45px;
+}
+
+.meist{
+    cursor: pointer;
+    background-color: #f8d3d3;
+    color: #656565;;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.meist h1 {
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.meist h2 {
+    opacity: .8;
+}
+.meist span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin:auto;
+    border-radius:50%;
+    font-size: 40px;
+    color: #000000;
+    opacity: 0.7;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+
+    webkit-transition:all .5s ease;
+    moz-transition:all .5s ease;
+    os-transition:all .5s ease;
+    transition:all .5s ease;
+
+}
+.meist-item:hover span{
+    opacity: 1;
+    border: 2px solid #ff9bb6;
+    font-size: 42px;
+    -webkit-transform: scale(1.1,1.1) rotate(360deg) ;
+    -moz-transform: scale(1.1,1.1) rotate(360deg) ;
+    -o-transform: scale(1.1,1.1) rotate(360deg) ;
+    transform: scale(1.1,1.1) rotate(360deg) ;
+}
+.meist-item:hover h2{
+    opacity: 1;
+    -webkit-transform: scale(1.1,1.1)  ;
+    -moz-transform: scale(1.1,1.1)  ;
+    -o-transform: scale(1.1,1.1)  ;
+    transform: scale(1.1,1.1) ;
+}
+.meist .lead{
+    color: #656565;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.table.table-hover tbody tr:hover {
+    background-color: #fdcece;
+}
+
+.table tbody tr td {
+    font-weight: bolder;
+    color: #656565;
+}
